@@ -1,0 +1,80 @@
+
+*{
+    margin:0;
+  padding:0;
+  box-sizing:inherit;
+  font-size:5;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+} 
+nav li{
+    align-content: center;
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color: #cccccc;
+    border:0px solid #000;
+    text-align:center;
+    color:blue;
+}
+nav li:hover{
+    background-color: appworkspace;
+    color:blue;
+}
+
+#footer nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:10px;
+} 
+
+#footer nav li:hover{
+    background-color: appworkspace;
+    color:#000;
+}
+
+.footer {
+    position: relative;
+    bottom: 100;
+    width: 100%;
+    height: 100px;
+    background-color: #cccccc;
+    align-self: center;
+
+}
+
+.Centro {
+    display: flex;
+    justify-content: center;
+}
+.code {
+    padding: 10px;
+    margin: 10px;
+    background-color: #cccccc;
+}
+.par {
+    padding: 30px;
+    margin: 10px;
+    background-color: #cccccc;
+}
+
+h3{
+font-family:fjalla One ;
+    font-size: 95%;
+    color: #666666;
+}
+
+a{
+ font-family:Zapf-Chancery;
+    font-size: 100%;
+    color: blue;   
+}
+.menu {
+    padding: 30px;
+    margin: 5px;
+    background-color: #cccccc;
+}
